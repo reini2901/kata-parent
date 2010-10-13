@@ -7,12 +7,8 @@
 	<packaging>pom</packaging>
 	<name>KANBAN - Binliotheks Projekt</name>
 
-
-
-
-	<dependencyManagement>
-
-		<dependencies>
+	
+	<dependencies>
 			<dependency>
 				<groupId>log4j</groupId>
 				<artifactId>log4j</artifactId>
@@ -28,8 +24,28 @@
 			</dependency>
 
 			<dependency>
+				<groupId>commons-io</groupId>
+				<artifactId>commons-io</artifactId>
+				<version>1.3</version>
+			</dependency>
+
+	</dependencies>
+
+
+	<dependencyManagement>
+
+		<dependencies>
+
+
+			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-core</artifactId>
+				<version>2.5.6</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-jms</artifactId>
 				<version>2.5.6</version>
 			</dependency>
 
@@ -56,13 +72,7 @@
 				<artifactId>spring-jdbc</artifactId>
 				<version>2.5.6</version>
 			</dependency>
-
-			<dependency>
-				<groupId>commons-io</groupId>
-				<artifactId>commons-io</artifactId>
-				<version>1.3</version>
-			</dependency>
-
+	
 			<dependency>
 				<groupId>org.testng</groupId>
 				<artifactId>testng</artifactId>
