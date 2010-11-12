@@ -1,5 +1,5 @@
-KANBAN PARENT
+KATA PARENT
 =============
 
 
-Provides some common libs for the simple kanban projects!
+Provides some common libs for the simple KATAs!
